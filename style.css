@@ -153,6 +153,42 @@ header{
 
 /* blog section end  */
 
+/* newsletter section  */
+.news{
+    height: 200px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+.n-h1{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+input{
+    border: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #0f0f0f;
+    width: 14%;
+
+}
+
+button{
+    border: none;
+    margin-top: 15px;
+ 
+}
+
+button img{
+    width: 85%;
+    margin-top: 15px;
+}
+
 
 
 
