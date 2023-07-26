@@ -1,0 +1,161 @@
+/* common css  */
+body{
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+}
+
+/* common css  */
+
+/* header start  */
+header{
+    /* border: 1px solid red; */
+    padding: 15px;
+}
+
+.container{
+    width: 90%;
+    /* border: 1px solid blue; */
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 9%;
+    /* border: 1px solid green; */
+    float: left;
+    margin-top: 13px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.navbar{
+    width: 60%;
+    /* border: 1px solid green; */
+    float: right;
+}
+
+.navbar ul{
+    float: right;
+}
+
+.navbar ul li{
+    list-style: none;
+    float: left;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0px 50px;
+    text-transform: uppercase;
+    color: #626262;
+    border-bottom: transparent;
+    transition: all ease .33s;
+
+}
+
+.navbar ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+
+.navbar ul li:last-child a{
+    margin-right: 0;
+}
+/* header end  */
+
+
+/* banner start  */
+.banner{}
+
+.b-img{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+
+.b-img img{
+    width: 100%;
+}
+
+/* banner end  */
+
+/* feature section  */
+.feature{
+    /* border: 1px solid red; */
+    margin-top: 100px;
+}
+
+.container2{
+    width: 80%;
+    /* border: 1px solid; */
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.c-tag{
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+
+}
+
+.c-h{
+    font-weight: 400;
+    font-size: 30px;
+    
+    
+}
+
+.c-p{
+    line-height: 24px;
+}
+
+.m-45{
+    margin-top: 45px;
+}
+
+.common{
+    padding: 0px 99px;
+
+    
+}
+
+/* feature section  */
+
+
+/* blog section start  */
+.blog{
+    /* border: 1px solid red; */
+    margin: 70px;
+}
+
+.blog-1{
+    width: 47%;
+    /* border: 1px solid; */
+    float: left;
+    box-sizing: border-box;
+}
+
+.blog-img{}
+
+.blog-img img{
+    width: 100%;
+}
+
+.blog-1:nth-child(even){
+    margin-left: 6%;
+    /* background-color: aqua; */
+}
+
+
+/* blog section end  */
+
+
+
+
+
+
+

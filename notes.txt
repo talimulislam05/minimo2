@@ -1,0 +1,81 @@
+font-color-ash: #626262
+font-color-signup: #333333
+font-color-footer: #0f0f0f
+
+fonts links: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+font-family: 'Playfair Display', serif;
+
+
+ubuntu: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+font-family: 'Ubuntu', sans-serif;
+
+incosolota: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+font-family: 'Inconsolata', monospace;
+
+
+<!-- blog section start  -->
+    <section class="blog">
+    <!-- first blog  -->
+        <div class="container2">
+            <div class="blog1">
+                <div class="blog-img">
+                    <img src="images/blog1.jpg" alt="minimo">
+                </div>
+                <p class="c-tag">lifestyle</p>
+                <h2 class="c-h">More than just a music festival</h2>
+                <p class="c-p c-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            </div>
+        </div>
+    <!-- first blog  -->
+
+    <!-- first blog  -->
+    <div class="container2">
+        <div class="blog1">
+            <div class="blog-img">
+                <img src="images/blog1.jpg" alt="minimo">
+            </div>
+            <p class="c-tag">lifestyle</p>
+            <h2 class="c-h">More than just a music festival</h2>
+            <p class="c-p c-p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+        </div>
+    </div>
+    <!-- first blog  -->
+    </section>
+    <!-- blog section end  -->
+
+
+/* blog section start  */
+.blog{
+    border: 1px solid red;
+    overflow: hidden;
+
+}
+
+.blog1{
+    width: 45%;
+    border: 1px solid;
+    
+
+}
+
+.blog-img{}
+
+.blog-img img{
+    width: 100%;
+}
+
+.c-p2{
+    padding-right: 120px;
+
+}
+
+/* blog section end  */
